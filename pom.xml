@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.fluxparticle</groupId>
+    <artifactId>wizard</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>WizardFW</name>
+    <description>A JavaFX component for a wizard dialog</description>
+    <url>https://github.com/FLUXparticle/WizardFX</url>
+
+    <licenses>
+        <license>
+            <name>The Peaceful Open Source License</name>
+            <url>http://www.wiseearthpublishers.com/sites/wiseearthpublishers.com/files/PeacefulOSL.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Sven Reinck</name>
+            <email>sreinck@fluxparticle.de</email>
+            <organization>FLUXparticle</organization>
+            <organizationUrl>http://www.fluxparticle.de/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/FLUXparticle/WizardFX.git</connection>
+        <developerConnection>scm:git:git@github.com:FLUXparticle/WizardFX.git</developerConnection>
+        <url>https://github.com/FLUXparticle/WizardFX</url>
+    </scm>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.fxmisc.easybind</groupId>
+            <artifactId>easybind</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
